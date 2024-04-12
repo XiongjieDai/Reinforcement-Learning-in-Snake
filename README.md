@@ -56,7 +56,7 @@ Q(s, a) & \text{else}
 
 where $Ne$ is a hyperparameter. Intuitively, if an action hasn’t been explored enough times (when $N(s,a) < Ne$), the exploration policy chooses that action regardless of its Q-value. If there are no such actions, the policy chooses the action with the highest Q value. This policy forces the agent to visit each state and action at least $Ne$ times.
 
-### Usage
+## Usage
 
 mp6.py [-h] [--human] [--model_name MODEL_NAME] [--train_episodes TRAIN_EPS] [--test_episodes TEST_EPS] [--show_episodes SHOW_EPS] [--window WINDOW] [--Ne NE] [--C C]
               [--gamma GAMMA] [--snake_head_x SNAKE_HEAD_X] [--snake_head_y SNAKE_HEAD_Y] [--food_x FOOD_X] [--food_y FOOD_Y]
