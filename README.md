@@ -5,3 +5,5 @@ Snake is a famous video game that originated in the 1976 arcade game Blockade. T
 The external libraries required for this project are `numpy` and `pygame`. To play the game yourself and get acquainted with it, you can run
 
 `python mp6.py --human` 
+
+![alt text](https://github.com/XiongjieDai/Reinforcement-Learning-in-Snake/blob/main/snake.gif)
